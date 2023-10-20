@@ -8,9 +8,8 @@
  */
 
 char *string_toupper(char *str)
-
 {
-	
+
 	int index = 0;
 
 	while (str[index])
@@ -20,5 +19,4 @@ char *string_toupper(char *str)
 	index++;
 	}
 	return (str);
-
 }
